@@ -15,16 +15,23 @@
 }
 
 .lemon-square {
-  width: 40%;
-  padding-bottom: 40%;
+  float: left;
+  width: 39%;
+  padding-bottom: 39%;
   background-color: #9b9b9b;
+  margin-right: 1%
 }
 
-.content {
+.content,
+.purple-header,
+.purple-body,
+.box-content {
   position: relative;
 }
 
-.content > div {
+.content > div,
+.purple-header > div,
+.purple-body > div {
   position: absolute;
   top: 0; bottom: 0; left: 0; right: 0;
 }
@@ -55,8 +62,8 @@ img {
 
 #lemon-text {
   position: absolute;
-  margin: 5%;
   bottom: 0%;
+  margin: 5%;
   background-color: #d8d8d8;
   padding: 1em;
   border: 2px solid #9b9b9b;
@@ -64,6 +71,42 @@ img {
 
 .purple-box {
   float: right;
-  width: 50%;
-  padding-bottom: 50%;
+  width: 59%;
+  padding-bottom: 35%;
+  border: 1px solid #9331f9;
+  margin-left: 1%;
+}
+
+.purple-header {
+  color: #9331f9;
+  font-size: .5em;
+  border-bottom: 1px solid #9331f9;
+  height: 4em;
+}
+
+ul.box-list {
+  float: right;
+  list-style-type: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+ul.box-list li {
+  display: inline;
+  margin: .5em;
+}
+
+h2 {
+  position: absolute;
+  top: 0;
+  right: 50%;
+}
+
+.box-content p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 30%;
+  transform: translate(-50%, -50%);
 }
