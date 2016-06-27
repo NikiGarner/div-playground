@@ -34,13 +34,32 @@
   padding-bottom: 80%;
   background-color: #a8c2e1;
   margin: 9%;
-  border: 3px solid #498fe2;
-  color: #9331f9
+  border: 2px solid #498fe2;
+  color: #9331f9;
+  position: relative;
 }
 
 h1 {
   font-size: 1.3em;
   margin: 1.5em;
+}
+
+img {
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+#lemon-text {
+  position: absolute;
+  margin: 5%;
+  bottom: 0%;
+  background-color: #d8d8d8;
+  padding: 1em;
+  border: 2px solid #9b9b9b;
 }
 
 .purple-box {
