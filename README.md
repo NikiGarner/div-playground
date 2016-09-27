@@ -1,57 +1,14 @@
-# Web Development Template
+# div-playground
 
-#### This is a lightweight repository to deploy a basic project at the beginning of each Epicodus pair and solo project. It is meant to save time and support clean builds. Current as of June 1, 2016
+#### By Kevin VanEvery and Niki Garner
 
-#### By Kevin VanEvery, Cory Olson, and Patrick Lipscomb
+#### 6/27/2016
 
 ## Description
 
-This repository contains the following folders and files.  They can be used to support a basic project template for the beginning of each of your projects.
+This repository was a project for the CSS course at Epicodus. The purpose of this project was to use floats and positioning to style a page.
 
-### css
 
-This folder contains the css files that support the Bootstrap framework in parallel with files in the /js folder.  There is also a styles.css file which contains custom user scripts.
-
-### js
-
-This folder contains the js files that support the Bootstrap framework in parallel with files in the /css folder.  It also contains the js files to support JQuery.  There is also a scripts.js file which contains custom user scripts.
-
-### fonts
-
-This folder contains the files which support glyphicons in Bootstrap.
-
-### img
-
-This folder contains useful placeholder images.  There are four sizes
-
-* thumbnail
-* small
-* medium
-* large
-
-and three orientations
-
-* square
-* portrait
-* landscape
-
-for a total of 15 images.  There is also a user profile square image, since that is common, and a favicon.
-
-### index.html
-
-This file contains basic markup for a starter page.  Markup includes a header and footer within a body tag and a div container with text.  The important feature is the head tag which includes the five Bootstrap, JQuery, and custom css and js files.  
-
-### css/styles.css
-
-This is your custom css file.
-
-### js/scripts.js
-
-This is your custom js file.
-
-### README.md
-
-You're looking at it.
 
 ## Setup/Installation Requirements
 
@@ -70,10 +27,6 @@ To install this repository into a new project each time, first
 * Move into your new folder and initialize git as normal
 * Congrats! You now have a new repo based on this template
 
-Some **DONT'S**
-
-* Don't just rename the cloned git repository - that will mess up future commits.  Do the copy/paste
-* If you're using a bootstrap template, don't replace the <head> tag.  Only change the <body> tag.  The templates include code at the top and bottom that bring in js and css we're already including and a bunch we don't use.  If you call a js or css file twice, it causes problems.
  
 ## Known Bugs
 
@@ -85,11 +38,11 @@ Come by during class if you have questions.
 
 ## Technologies Used
 
-* Bootstrap
-* JQuery
+* HTML
+* CSS
 
 ### License
 
 Licensed under the MIT License
 
-Copyright (c) 2016 **Epicodus Pair Projects**
+Copyright (c) 2016 **Epicodus**
